@@ -26,9 +26,8 @@ An AI-powered tool to generate detailed and structured course syllabi in minutes
 
 ## 🛠️ Local Setup
 
-### 1. Clone the Repo
 
-```bash
+1. Clone the Repo
 git clone https://github.com/your-username/course-syllabus-generator.git
 cd course-syllabus-generator
 
