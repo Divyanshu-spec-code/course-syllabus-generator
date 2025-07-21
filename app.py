@@ -3,6 +3,12 @@ import streamlit as st
 import requests
 from dotenv import load_dotenv
 
+def main():
+    OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+
+    if not OPENROUTER_API_KEY:
+        st.error("API Key not found. Please set OPENROUTER_API_KEY in Streamlit secrets.")
+        return
 # Import UI enhancement functions
 from ui_enhancer import (
     apply_global_styles,
