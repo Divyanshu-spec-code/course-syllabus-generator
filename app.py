@@ -20,7 +20,7 @@ from ui_enhancer import (
 
 # Load API key from .env
 load_dotenv()
-api_key = st.secrets["OPENAI_API_KEY"]
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 def generate_syllabus(subject, duration):
     """
