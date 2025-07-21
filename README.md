@@ -2,7 +2,6 @@
 
 An AI-powered tool to generate detailed and structured course syllabi in minutes. Built using **Streamlit**, **OpenRouter**, and **LLMs**, this app helps educators automate the creation of subject-specific syllabi based on course inputs.
 
-![Streamlit App ](https://course-syllabus-generator-4zy84q3degmpah6dwiqrgv.streamlit.app/#step-by-step-guide)
 
 ---
 
